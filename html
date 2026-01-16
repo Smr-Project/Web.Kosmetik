@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smr Project</title>
+    <style>
+        /* Menggunakan Flexbox untuk tata letak Header-Content-Footer */
+        body {
+            margin: 0;
+            display: flex; /* Mengaktifkan Flexbox */
+            flex-direction: column; /* Menyusun item secara vertikal */
+            min-height: 100vh; /* Memastikan body mencakup seluruh tinggi viewport */
+        }
 
+        /* Styling untuk Iframe */
+        iframe {
+            display: block; /* Langsung ditampilkan */
+            width: 100%;
+            flex-grow: 1; /* Mengisi ruang yang tersedia */
+            border: none;
+            background: #fff; 
+        }
+        
+        /* Styling untuk Footer */
+        footer {
+            padding: 10px;
+            text-align: center;
+            background-color: #f1f1f1; 
+            color: #333; 
+            font-size: 0.9em;
+            flex-shrink: 0; 
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Iframe langsung ditampilkan -->
+    <iframe id="main-iframe" src="https://script.google.com/macros/s/AKfycbzzpYUKADtwC3W83ha2GWA2XZMmjjirkUe2UXsDctHoePgTUOoUoAKsr3EBPORXop0w/exec" allow="camera"></iframe>
+    
+    <!-- Elemen Footer -->
+    <footer>
+        &copy; Copyright 2025; By, Smr Project
+    </footer>
+
+</body>
+</html>
